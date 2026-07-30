@@ -7,7 +7,7 @@ export type ProjectCategory =
   | "Other";
 
 export interface FeaturedProject {
-  repo: string;
+  repo?: string;
   title: string;
   type: string;
   category: ProjectCategory;

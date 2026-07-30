@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight, ExternalLink, FolderCode, X } from "lucide-react";
+import { featuredProjects } from "@/data/featuredProjects";
 
 type ProjectCategory =
   | "Web"
@@ -73,14 +74,17 @@ export default function Projects({ projects }: ProjectsProps) {
       <section
         id="projects"
         className="
-          relative
-          w-full
-          overflow-hidden
-          bg-white
-          py-24
-          md:py-28
-          lg:py-32
-        "
+    relative
+    w-full
+    overflow-hidden
+    bg-white
+    pt-16
+    pb-24
+    md:pt-20
+    md:pb-28
+    lg:pt-24
+    lg:pb-32
+  "
       >
         <div
           className="
