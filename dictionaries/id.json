@@ -1,0 +1,145 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "experience": "Pengalaman",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+
+  "hero": {
+    "greeting": "Halo, Saya",
+    "role": "TEKNIK INFORMATIKA",
+    "tagline": "Mahasiswa Teknik Informatika yang terus belajar, berkembang, dan membangun pengalaman melalui proyek, eksplorasi teknologi, serta pengalaman profesional.",
+    "ctaProjects": "Lihat Proyek",
+    "ctaContact": "Hubungi Saya"
+  },
+
+  "about": {
+    "sectionTitle": "TENTANG SAYA",
+    "greeting": "SAYA",
+    "name": "Achmad Syahril Fauzi",
+    "role": "TEKNIK INFORMATIKA",
+    "bio": "Saya adalah mahasiswa Teknik Informatika di Universitas Pamulang yang memiliki ketertarikan pada teknologi dan pengembangan solusi digital. Saya senang mempelajari hal baru, menghadapi tantangan, dan mengembangkan kemampuan melalui pengalaman langsung.\n\nDi luar perkuliahan, saya aktif mengerjakan proyek pribadi dan akademik sebagai bagian dari proses belajar. Bagi saya, setiap proyek dan pengalaman merupakan kesempatan untuk terus berkembang serta mempersiapkan diri memasuki dunia profesional.",
+    "downloadCv": "UNDUH CV"
+  },
+
+  "skills": {
+    "title": "Teknologi yang",
+    "accent": "Dipelajari"
+  },
+
+  "experience": {
+    "title": "Perjalanan",
+    "accent": "Profesional",
+    "technologiesLabel": "Kemampuan yang Dikembangkan",
+    "list": [
+      {
+        "company": "Union Labs",
+        "role": "Community Promoter",
+        "period": "Agustus 2025 - September 2025",
+        "location": "Remote",
+        "description": [
+          "Mendukung keterlibatan komunitas melalui pembuatan konten dan diskusi.",
+          "Membantu meningkatkan awareness terhadap proyek dan aktivitas komunitas.",
+          "Berinteraksi dengan anggota komunitas dalam lingkungan Web3."
+        ],
+        "technologies": ["Community Engagement", "Content", "Social Media"]
+      },
+      {
+        "company": "Union Labs",
+        "role": "Community Coordinator",
+        "period": "Januari 2025 - September 2025",
+        "location": "Remote",
+        "description": [
+          "Mendukung interaksi dan aktivitas komunitas.",
+          "Membantu mengelola diskusi serta kegiatan komunitas.",
+          "Mendukung kampanye untuk meningkatkan engagement dan awareness."
+        ],
+        "technologies": ["Communication", "Community Building", "Coordination"]
+      },
+      {
+        "company": "Union Labs",
+        "role": "Testnet Participant",
+        "period": "Juni 2024 - September 2025",
+        "location": "Remote",
+        "description": [
+          "Berpartisipasi dalam pengujian jaringan selama fase testnet.",
+          "Mengidentifikasi kendala dan memberikan feedback selama proses pengujian.",
+          "Mempelajari proses pengujian dan penggunaan teknologi blockchain secara langsung."
+        ],
+        "technologies": ["Web3", "Blockchain Testing", "Testnet"]
+      },
+      {
+        "company": "Elys Network",
+        "role": "Testnet Coordinator",
+        "period": "Juni 2024 - Desember 2024",
+        "location": "Remote",
+        "description": [
+          "Mendukung koordinasi aktivitas testnet dan partisipasi komunitas.",
+          "Membantu mengidentifikasi kendala selama proses pengujian.",
+          "Memberikan feedback untuk mendukung peningkatan pengalaman pengguna jaringan."
+        ],
+        "technologies": [
+          "Blockchain Testing",
+          "Testnet Coordination",
+          "Community"
+        ]
+      },
+      {
+        "company": "Indomarco Group",
+        "role": "Special Store",
+        "period": "September 2023 - Maret 2024",
+        "location": "Tangerang, Indonesia",
+        "description": [
+          "Menjalankan aktivitas operasional toko dan memberikan pelayanan kepada pelanggan.",
+          "Membantu pengelolaan barang dan aktivitas operasional harian.",
+          "Bekerja dalam lingkungan yang membutuhkan ketelitian, komunikasi, dan kerja sama tim."
+        ],
+        "technologies": ["Customer Service", "Teamwork", "Operations"]
+      },
+      {
+        "company": "ParagonCorp",
+        "role": "Production Staff",
+        "period": "Januari 2023 - Maret 2023",
+        "location": "Tangerang, Indonesia",
+        "description": [
+          "Mendukung aktivitas produksi sesuai dengan prosedur operasional.",
+          "Bekerja sama dengan tim dalam menjalankan proses produksi.",
+          "Mengembangkan kedisiplinan, ketelitian, dan kemampuan bekerja dalam lingkungan profesional."
+        ],
+        "technologies": ["Teamwork", "Operations", "Time Management"]
+      }
+    ]
+  },
+
+  "certificates": {
+    "title": "Sertifikat &",
+    "accent": "Pembelajaran"
+  },
+
+  "projects": {
+    "title": "Proyek",
+    "accent": "Pilihan",
+    "subtitle": "Kumpulan proyek akademik, pribadi, dan kolaboratif yang menjadi bagian dari perjalanan saya dalam belajar, bereksperimen, dan mengembangkan pengalaman di bidang teknologi.",
+    "drawer": {
+      "close": "Tutup",
+      "techStack": "Teknologi yang Digunakan",
+      "viewLive": "Lihat Proyek",
+      "sourceCode": "Kode Sumber"
+    }
+  },
+
+  "contact": {
+    "title": "Mari",
+    "accent": "Terhubung",
+    "subtitle": "Terbuka untuk kesempatan magang, pekerjaan, kolaborasi, maupun kesempatan baru untuk belajar dan berkembang. Silakan hubungi saya melalui formulir berikut.",
+    "name": "Nama Lengkap",
+    "namePlaceholder": "Masukkan nama Anda",
+    "email": "Alamat Email",
+    "emailPlaceholder": "nama@email.com",
+    "message": "Pesan",
+    "messagePlaceholder": "Tulis pesan Anda di sini...",
+    "send": "Kirim Pesan"
+  }
+}

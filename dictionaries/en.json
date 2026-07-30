@@ -1,0 +1,98 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects"
+  },
+  "hero": {
+    "greeting": "Hello, I am",
+    "role": "INFORMATICS ENGINEERING STUDENT",
+    "tagline": "Exploring technology through continuous learning, hands-on experience, and projects that turn ideas into practical solutions.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact Me"
+  },
+  "about": {
+    "sectionTitle": "ABOUT ME",
+    "greeting": "I AM",
+    "name": "Achmad Syahril Fauzi",
+    "role": "INFORMATICS ENGINEERING STUDENT",
+    "bio": "I am an Informatics Engineering student at Pamulang University with a strong curiosity for technology and how it can be used to solve real-world problems. Alongside my academic journey, I continue to learn through projects, experiences, and new challenges. This portfolio represents that journey — documenting what I have built, what I have learned, and how I continue to grow.",
+    "downloadCv": "DOWNLOAD CV"
+  },
+  "skills": {
+    "title": "Technical",
+    "accent": "Skills"
+  },
+  "experience": {
+    "title": "Work",
+    "accent": "Experience",
+    "technologiesLabel": "Technologies Used",
+    "list": [
+      {
+        "company": "PT Indomarco Prismatama",
+        "role": "Store Crew",
+        "period": "August 2023 - April 2024",
+        "location": "Indonesia",
+        "description": [
+          "Delivered excellent customer service in daily store operations.",
+          "Collaborated effectively with team members to ensure smooth operational activities.",
+          "Managed inventory and maintained accuracy in stock control processes.",
+          "Strengthened communication, problem-solving, and time management skills."
+        ],
+        "technologies": [
+          "Microsoft Office",
+          "Google Workspace",
+          "Inventory Management"
+        ]
+      },
+      {
+        "company": "Personal Projects",
+        "role": "INFORMATICS ENGINEERING STUDENT",
+        "period": "2024 - Present",
+        "location": "Remote",
+        "description": [
+          "Built responsive web applications using Next.js and React.",
+          "Installed and configured Windows and Linux operating systems in virtual environments.",
+          "Learned basic networking, MySQL database management, and computer troubleshooting.",
+          "Developed personal projects to improve practical skills in IT support and web development."
+        ],
+        "technologies": [
+          "Next.js",
+          "React",
+          "MySQL",
+          "Windows",
+          "Linux",
+          "Git",
+          "GitHub"
+        ]
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Certificates &",
+    "accent": "Awards"
+  },
+  "projects": {
+    "title": "Project",
+    "accent": "Portfolio",
+    "subtitle": "A collection of projects that reflect my learning journey and practical experience in web development, information systems, and IT support.",
+    "drawer": {
+      "close": "Close",
+      "techStack": "Technologies Used",
+      "viewLive": "View Live Project",
+      "sourceCode": "Source Code"
+    }
+  },
+  "contact": {
+    "title": "Get In",
+    "accent": "Touch",
+    "subtitle": "I'm open to internship opportunities, full-time positions, freelance work, and collaborations in IT support, web development, and technology. Feel free to reach out through the contact form below.",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email Address",
+    "emailPlaceholder": "name@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell me about your project or opportunity...",
+    "send": "Send Message"
+  }
+}
