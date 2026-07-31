@@ -366,8 +366,8 @@ export default function Hero({ dict }: HeroProps) {
 
           {/* ================= RIGHT ================= */}
           <motion.div
-            initial={{ opacity: 0, x: 60 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{
               duration: 0.8,
               delay: 0.1,
@@ -375,14 +375,19 @@ export default function Hero({ dict }: HeroProps) {
             }}
             className="
     relative
-    hidden
-    min-h-[680px]
-    items-center
+    flex
+    w-full
+    min-h-[500px]
+    items-start
     justify-center
 
-    lg:flex
+    sm:min-h-[560px]
+
+    lg:min-h-[680px]
+    lg:items-center
     lg:justify-end
     lg:-translate-y-12
+
     xl:-translate-y-16
   "
           >

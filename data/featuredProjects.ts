@@ -6,15 +6,16 @@ export type ProjectCategory =
   | "Web3"
   | "Other";
 
-export interface FeaturedProject {
+interface FeaturedProject {
   repo?: string;
   title: string;
   type: string;
   category: ProjectCategory;
+  featured: boolean;
   description: string;
   image: string;
   demo?: string;
-  featured: boolean;
+  tags?: string[];
 }
 
 export const featuredProjects: FeaturedProject[] = [
@@ -39,6 +40,17 @@ export const featuredProjects: FeaturedProject[] = [
     description:
       "A Figma-based UI/UX project designed to simplify digital workflows for local UMKM, making business services and processes easier to understand and access.",
     image: "/projects/system.png",
+  },
+
+  {
+    title: "Build on Sui — BlockDevId",
+    type: "Learning / Blockchain",
+    category: "Web3",
+    featured: true,
+    description:
+      "Participated in a Build on Sui learning session with BlockDevId, exploring the Sui ecosystem and gaining hands-on exposure to blockchain development concepts alongside the developer community.",
+    image: "/projects/build-on-sui.jpg",
+    tags: ["Sui", "Blockchain", "Web3", "Move", "Community Learning"],
   },
 
   {
@@ -97,7 +109,7 @@ export const featuredProjects: FeaturedProject[] = [
     featured: false,
     description:
       "A data mining project exploring fraud detection through data preprocessing, analysis, and machine learning techniques using Python.",
-    image: "/projects/data-mining.webp",
+    image: "/projects/data-mining.png",
   },
 
   {
@@ -108,7 +120,7 @@ export const featuredProjects: FeaturedProject[] = [
     featured: false,
     description:
       "A collection of web development exercises and academic projects covering fundamental web technologies.",
-    image: "/projects/web.webp",
+    image: "/projects/web.png",
   },
 
   {

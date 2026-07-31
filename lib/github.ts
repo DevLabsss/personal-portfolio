@@ -61,6 +61,29 @@ export async function getGithubProjects() {
 
     return featuredProjects
       .map((featured) => {
+        // PROJECT TANPA GITHUB REPOSITORY
+        if (!featured.repo) {
+          return {
+            slug: featured.title
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, "-")
+              .replace(/^-|-$/g, ""),
+
+            frontmatter: {
+              title: featured.title,
+              type: featured.type,
+              category: featured.category,
+              featured: featured.featured,
+              description: featured.description,
+              image: featured.image,
+              tags: featured.tags ?? [],
+              github: "",
+              link: featured.demo ?? "",
+            },
+          };
+        }
+
+        // PROJECT DARI GITHUB
         const repo = repos.find(
           (item: { name: string }) => item.name === featured.repo,
         );
@@ -77,14 +100,15 @@ export async function getGithubProjects() {
             type: featured.type,
             category: featured.category,
             featured: featured.featured,
-
             description: featured.description,
             image: featured.image,
 
             tags:
+              featured.tags ??
               repo.repositoryTopics?.nodes?.map(
                 (item: { topic: { name: string } }) => item.topic.name,
-              ) ?? [],
+              ) ??
+              [],
 
             github: repo.url,
 
